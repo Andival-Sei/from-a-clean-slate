@@ -40,6 +40,8 @@ blockquote {
 }
 
 .header__logo {
+	display: block;
+	width: 79px;
 }
 .header__logo-image {
 }
@@ -63,12 +65,11 @@ blockquote {
 }
 
 .cover {
-  height: 340px;
   padding: 7px 0 0 20px;
   background-image: url(../assets/cover.png);
   background-repeat: no-repeat;
   background-size: 95% auto;
-  background-position: center right;
+  background-position: right center;
   color: #fff;
 }
 
