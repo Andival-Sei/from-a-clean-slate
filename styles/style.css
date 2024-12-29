@@ -1,9 +1,9 @@
 body {
+  box-sizing: border-box;
   margin: 0;
-  background-color: #1e1e1e;
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  box-sizing: border-box;
+  background-color: #1e1e1e;
 }
 
 h1,
@@ -21,8 +21,8 @@ blockquote {
 }
 
 .content-section {
-  width: 360px;
   box-sizing: border-box;
+  width: 360px;
 }
 
 .content-section_theme_dark {
@@ -34,31 +34,31 @@ blockquote {
 }
 
 .header {
-  padding: 24px 20px;
   display: flex;
   justify-content: space-between;
+  padding: 24px 20px;
 }
 
 .header__logo {
-	display: block;
-	width: 79px;
+  display: block;
+  width: 79px;
 }
 .header__logo-image {
 }
 .header__menu {
 }
 .header__menu-list {
-  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  list-style: none;
 }
 .header__menu-item {
 }
 
 .header__menu-link {
-  text-decoration: underline;
   color: #f5f5f5;
+  text-decoration: underline;
 }
 .header__menu-item_active .header__menu-link {
   text-decoration: none;
@@ -66,18 +66,18 @@ blockquote {
 
 .cover {
   padding: 7px 0 0 20px;
+  color: #fff;
   background-image: url(../assets/cover.png);
   background-repeat: no-repeat;
-  background-size: 95% auto;
   background-position: right center;
-  color: #fff;
+  background-size: 95% auto;
 }
 
 .cover__title {
-  font-size: 72px;
+  padding-right: 24px;
   font-family: "EBGaramond", serif;
   font-weight: 400;
-  padding-right: 24px;
+  font-size: 72px;
 }
 
 .accent-span {
@@ -97,8 +97,8 @@ blockquote {
 }
 
 .intro__heading {
-  color: #ccc;
   display: flex;
+  color: #ccc;
 }
 
 .intro__title {
@@ -108,13 +108,13 @@ blockquote {
 }
 
 .intro__date {
-  white-space: nowrap;
   line-height: 120%;
+  white-space: nowrap;
 }
 
 .intro__main-text p {
-  color: #f5f5f5;
   margin-top: 24px;
+  color: #f5f5f5;
   font-weight: 400;
   line-height: 135%;
 }
@@ -125,9 +125,9 @@ blockquote {
 
 .content-section__subtitle {
   font-family: "EBGaramond", serif;
+  font-weight: 500;
   font-size: 28px;
   line-height: 115%;
-  font-weight: 500;
 }
 
 .content-section__introduction {
@@ -143,10 +143,10 @@ blockquote {
 }
 
 .content-section__list-item {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 135%;
   margin-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
 }
 
 .content-section__list-accent {
@@ -175,8 +175,8 @@ blockquote {
 }
 
 .card_theme_bright {
-  background-color: #fee42a;
   color: #131313;
+  background-color: #fee42a;
 }
 
 .card__content {
@@ -188,17 +188,17 @@ blockquote {
 }
 
 .card__author-name {
-	margin-top: 8px;
+  margin-top: 8px;
   font-weight: 700;
   font-size: 16px;
   line-height: 135%;
 }
 
 .card__title {
+  font-family: "EBGaramond", serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 135%;
-  font-family: "EBGaramond", serif;
 }
 
 .card__text {
@@ -209,10 +209,10 @@ blockquote {
 }
 
 .footer {
-  padding: 20px 20px;
   display: flex;
   justify-content: space-between;
   border-top: #fee42a 1px solid;
+  padding: 20px 20px;
 }
 
 .footer__copy {
@@ -220,16 +220,16 @@ blockquote {
 .footer__links {
 }
 .footer__links-list {
-  list-style: none;
   display: flex;
   column-gap: 16px;
+  list-style: none;
 }
 .footer__links-item {
 }
 .footer__links-link {
-  text-decoration: none;
+  color: #f5f5f5;
   font-weight: 400;
   font-size: 14px;
   line-height: 125%;
-  color: #f5f5f5;
+  text-decoration: none;
 }
